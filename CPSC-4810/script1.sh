@@ -6,4 +6,6 @@ csvlook first3sfo.csv
 
 awk -F "\"*,\"*" '{print $18}' flightdelays.csv | sort -r | uniq -c | sort -nr | head -n 3 | csvlook -H
 
+echo "nomaan"
+
 
