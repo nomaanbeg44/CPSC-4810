@@ -8,3 +8,5 @@ data3=pd.read_csv('first3sfp.csv', header=NONE)[1]
 print(data3)
 #top 3 destinations
 print(data1['Dist'].value_counts().head(3))
+
+print("nomaan")
